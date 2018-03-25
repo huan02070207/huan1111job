@@ -10,13 +10,12 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage, ImageSendMessage
 )
 
-app = Flask(__name__)
+app = Flask(__huan1111job__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('KgX2V33eWljf3sQZgYdLHXwGLSm8s/Tuxb1chctofSYBSAIuVZL04P7edu0f2gbTH26pg6YntaSJzKZ6Z8t7CCZ0tLkKHU2VOpaHprz3Va94y/iazefK4Wxy5y9FMo0yMX5hB8Xb+AodTHiDywjCnwdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('OMrEDvlmTVfwYi0IZ8GAWcPISUh33LBSBdzPCh1cs2HNG1xT2hO1Y57PvjcOg0A6H26pg6YntaSJzKZ6Z8t7CCZ0tLkKHU2VOpaHprz3Va9fW0dNJ7008cqMFvWfgkgmHvPoHQ31SkxPlxhTWeSYtQdB04t89/1O/w1cDnyilFU=iazefK4Wxy5y9FMo0yMX5hB8Xb+AodTHiDywjCnwdB04t89/1O/w1cDnyilFU=')
 # Channel Secret
-handler = WebhookHandler('92f8762489e6c5b0e39928c2d5bcb80a
-')
+handler = WebhookHandler('62e4c1f533318e02abc0b0f8f4a18fb0')
 
 # 監聽所有來自 /callback 的 Post Request
 @app.route("/callback", methods=['POST'])
